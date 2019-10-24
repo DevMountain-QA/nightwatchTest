@@ -6,7 +6,7 @@ module.exports = {
         browser.end()
     },
     "Check title": browser=>{
-        browser.waitForElementVisible("button")
-            .verify.titleContains("Google")
+        browser.waitForElementVisible("#hplogo", 10000)
+            .verify.title("Google")
     }
 }
