@@ -1,16 +1,18 @@
 {
-  "name": "testSetup",
+  "name": "test-setup",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx nightwatch"
+    "test": "npx nightwatch",
+    "testFirefox": "npx nightwatch -e firefox"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chromedriver": "^77.0.0",
+    "geckodriver": "^1.19.1",
     "nightwatch": "^1.2.4"
   }
 }

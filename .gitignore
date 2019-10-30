@@ -1,4 +1,5 @@
 /tests_output
 /node_modules
+/screenshots
 *lock.json
 *.log
